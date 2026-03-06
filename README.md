@@ -1,29 +1,49 @@
 # User Management API
 
-REST API developed with Spring Boot for user management.
+REST API developed with Java and Spring Boot for user management.
 
-## Technologies
+## 🚀 Technologies
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- H2 Database
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* H2 Database
+* Maven
 
-## Endpoints
+## 📌 Features
 
-GET /users  
-POST /users  
-PUT /users/{id}  
-DELETE /users/{id}
+* Create user
+* List users
+* Update user
+* Delete user
 
-## Example Request
+## 📡 API Endpoints
+
+| Method | Endpoint    | Description    |
+| ------ | ----------- | -------------- |
+| GET    | /users      | List all users |
+| POST   | /users      | Create user    |
+| PUT    | /users/{id} | Update user    |
+| DELETE | /users/{id} | Delete user    |
+
+## 📂 Project Structure
+
+src
+┣ controller
+┣ model
+┣ repository
+
+## 🧪 Example Request
 
 POST /users
 
+```json
 {
 "name": "Amanda",
 "email": "amanda@email.com"
 }
+```
 
-## Author
-Amanda Evelyn
+## 👩‍💻 Author
+
+Amanda Evelyn Marques
