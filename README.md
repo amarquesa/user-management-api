@@ -44,6 +44,12 @@ POST /users
 }
 ```
 
+## How to run
+
+git clone https://github.com/amarquesa/user-management-api
+cd user-management-api
+mvn spring-boot:run
+
 ## 👩‍💻 Author
 
 Amanda Evelyn Marques
